@@ -10,7 +10,7 @@ For the style i dont manually styling one-by-one, i tried using framework more o
 Turn On/Off lamp using html-css(framework) and Javascript
 
 
-### Language that i use:
+### Language:
 
 * HTML
 * CSS
