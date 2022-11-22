@@ -5,7 +5,7 @@
 
 ### Description
 
-Trying CSS framework for the first time, its kinda 'easy' because its literally just copy-paste , all i have to is just read the Docs.
+Trying CSS framework for the first time, its kinda 'easy' because its literally just copy-paste , all i have to is just to read the Docs. But its look refreshing when i use framework and fun because i dont feel tired to style one-by-one
 
 And i dont have to stlying my css one-by-one, and i dont use javascript yet , but im working on it 
 
