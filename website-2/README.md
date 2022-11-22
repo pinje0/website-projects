@@ -14,7 +14,8 @@ So yeah, still not using javascript ,and im working on it
 ### Language that i use:
 
 * HTML
-* CSS (Bootstrap)
+* CSS
+  - <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap</a>
 
 ## Hosting
 
