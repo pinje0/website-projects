@@ -1,6 +1,6 @@
 <h1 align="center"> [Website-3] Basic logic Javascript with some CSS-Framework </h1> <br>
 
-## <a href="https://pinje-web-2.petani0.repl.co">Link to the website</a>
+## <a href="https://on-off-lamp.petani0.repl.co">Link to the website</a>
 
 
 ### Description
