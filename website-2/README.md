@@ -1,4 +1,4 @@
-<h1 align="center"> [Website-1] First website with "about me stuff") </h1> <br>
+<h1 align="center"> [Website-1] First website with "about me stuff" </h1> <br>
 
 ## <a href="https://pinje-web.petani0.repl.co/">Link to the website</a>
 
