@@ -11,7 +11,7 @@ And im trying to make it responsive on the other device as well.
 So yeah, still not using javascript ,and im working on it
 
 
-### Language that i use:
+### Language:
 
 * HTML
 * CSS
