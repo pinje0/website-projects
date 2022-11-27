@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>Login Local Storage</title>
+		<style>
+			#root {
+				background-color: #333;
+				color: white;
+				font-size: 2em;
+				text-align: center;
+				height: 100vh;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- CONTENT -->
+		<div id="root">
+			<input type="text" placeholder="username" id="usernameInput" />
+			<input type="password" placeholder="password" id="passwordInput" />
+			<button id="loginButton" onclick="onLogin()">LOGIN</button>
+			<button id="logoutButton" onclick="onLogout()">LOGOUT</button>
+			<br />
+			<h1 id="admin">LOGIN AS ADMIN</h1>
+			<h1 id="basic">LOGIN AS NORMAL USER</h1>
+		</div>
+
+		<!-- SCRIPT -->
+		<script type="application/javascript">
+			// DECLARE VARIABLE
+			let usernameInput = document.getElementById("usernameInput");
+			let passwordInput = document.getElementById("passwordInput");
+			let loginButton = document.getElementById("loginButton");
+			let logoutButton = document.getElementById("logoutButton");
+			let admin = document.getElementById("admin");
+			let basic = document.getElementById("basic");
+
+			// STYLE
+			admin.style.display = "none";
+			basic.style.display = "none";
+			logoutButton.style.display = "none";
+
+			// FUNCTION LOGIN
+			function onLogin() {
+				localStorage.setItem("username", usernameInput.value);
+				logoutButton.style.display = "block";
+
+				// IF STATEMENT
+				if (
+					usernameInput.value == "admin" &&
+					passwordInput.value == "admin123"
+				) {
+					// ADMIN
+					localStorage.setItem("role", "admin");
+					usernameInput.style.display = "none";
+					passwordInput.style.display = "none";
+					loginButton.style.display = "none";
+					basic.style.display = "none";
+					admin.style.display = "block";
+				} else {
+					// NORMAL USER
+					usernameInput.style.display = "none";
+					passwordInput.style.display = "none";
+					loginButton.style.display = "none";
+					localStorage.setItem("role", "basic");
+					admin.style.display = "none";
+					basic.style.display = "block";
+				}
+			}
+			// IF THERES USER LOGIN
+			if (localStorage.getItem("username")) {
+				usernameInput.style.display = "none";
+				passwordInput.style.display = "none";
+				loginButton.style.display = "none";
+				logoutButton.style.display = "block";
+				if (localStorage.getItem("role") == "admin") {
+					basic.style.none = "none";
+					admin.style.display = "block";
+				} else {
+					admin.style.display = "none";
+					basic.style.display = "block";
+				}
+			}
+
+			// LOGOUT FUNCTION
+			function onLogout() {
+				localStorage.clear();
+				location.reload();
+			}
+		</script>
+	</body>
+</html>
