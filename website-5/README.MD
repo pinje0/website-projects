@@ -6,8 +6,10 @@
 ### Description
 
 Testing Dark Mode with Javascript and CSS, and theres a little bit of `@keyframe` for the animation of `<p>` element (just for fun lol).
+
+I didnt make the script file seperated, because this is just a simple program so i use `<script>` in the html file.
   
-And make it,  so there's a limit to change the mode (mode button) just for 5 times, and after that u cant change mode again
+And i make it,  so there's a limit to change the mode (mode button) just for 5 times, and after that u cant change mode again
 
 
 ### Language:
