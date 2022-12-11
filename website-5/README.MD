@@ -5,7 +5,7 @@
 
 ### Description
 
-Testing Dark Mode with Javascript and CSS, and theres a little bit of keyframe for the animation of `<p>` element (just for fun lol).
+Testing Dark Mode with Javascript and CSS, and theres a little bit of `@keyframe` for the animation of `<p>` element (just for fun lol).
   
 And make it,  so there's a limit to change the mode (mode button) just for 5 times, and after that u cant change mode again
 
