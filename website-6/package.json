@@ -1,0 +1,18 @@
+{
+  "name": "session_7",
+  "version": "1.0.0",
+  "description": "session 7 cuyuniversity backend",
+  "main": "index.js",
+  "scripts": {
+    "nyala": "nodemon index.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "pinje",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "rupiah-format": "^1.0.0"
+  }
+}
